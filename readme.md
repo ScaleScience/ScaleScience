@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo/logo.png" alt="ScaleScience logo" width="240" />
+  <img src="assets/logo/logo.png" alt="ScaleScience logo" width="240" />
 </p>
 
 ### Info  
@@ -30,6 +30,8 @@
 ### MacOS
 
 ### WatchOS - Simplified version of calculator
+
+### Subscription Model
 
 ### Future Updates
 [Version Map](future_versions.md)
