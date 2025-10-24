@@ -6,15 +6,16 @@ labels: ''
 assignees: stevensryanw
 
 ---
+Please list the species you would like to add (if you have length, girth, and weights for any, please add them so models can be improved):
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+Name - (length, girth, weight) (units)
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+Example:
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+- Atlantic Bluefin Tuna - (150 cm, 80 cm, 250 kg) (cm/kg)
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+If you have datasets, sample rows, or notes about measurement method, paste them below or attach as a file.
+
+Additional context:
+
+Add any other notes about the request here.
