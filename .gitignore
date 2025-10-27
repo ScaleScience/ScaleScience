@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# AWS Elastic Beanstalk
+.elasticbeanstalk/app_versions/
+.elasticbeanstalk/logs/
+*.zip

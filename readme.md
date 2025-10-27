@@ -15,34 +15,126 @@
 
 ---
 
-# About ScaleScience  
+# About ScaleScience
+
+ScaleScience is a comprehensive fish weight calculator application available for iOS, macOS, and watchOS. Using scientifically-validated length-weight relationships from FishBase 2025 and IGFA world records, ScaleScience provides accurate weight estimates for fish based on length and girth measurements.
+
+The app is backed by extensive fisheries data analysis from the International Commission for the Conservation of Atlantic Tunas (ICCAT), including 74 years of historical catch data (1950-2023) and population biomass estimates for major commercial species.
 
 ---
 
-## Our Goals  
+## Our Goals
+
+- Provide accurate, science-based fish weight estimates for anglers, researchers, and fisheries professionals
+- Support sustainable fisheries management through data-driven insights
+- Make complex fisheries data accessible through intuitive applications
+- Expand species coverage to include both saltwater and freshwater fish globally
+- Contribute to fisheries conservation and research
 
 ---
 
-## Application (IOS, MacOS, WatchOS)
+## Species Coverage
 
-### IOS
+ScaleScience currently supports **126 fish species** including:
+
+### Major Tunas (7 species)
+- **Bluefin Tuna (BFT)** - Atlantic Bluefin
+- **Yellowfin Tuna (YFT)**
+- **Albacore (ALB)**
+- **Skipjack Tuna (SKJ)**
+- **Bigeye Tuna (BET)**
+- **Atlantic Bonito (BON)**
+- **Little Tunny (LTA)**
+
+### Billfishes (3 species)
+- **Swordfish (SWO)**
+- **Blue Marlin (BUM)**
+- Additional billfish species
+
+### Sharks (4 species)
+- **Blue Shark (BSH)**
+- **Shortfin Mako (SSM)**
+- **Mako Shark (SMA)**
+- Additional shark species
+
+### Other Species (100+ species)
+- **King Mackerel (KGM)**
+- **Frigate Tuna (FRI)**
+- Additional commercial and recreational species
+- Global freshwater and saltwater species
+
+All species data includes:
+- Length-weight allometric parameters (W = a × L^b)
+- IGFA world records (length, girth, weight)
+- Both metric (kg, cm) and imperial (lbs, inches) units
+- Girth-based field formulas where available
+
+---
+
+## Application (iOS, MacOS, watchOS)
+
+### iOS
+Native Swift application providing full-featured fish weight calculations with:
+- 126 species database with scientific parameters
+- Length-only and length+girth calculation methods
+- Imperial and metric unit support
+- Species search and filtering
+- Historical calculation tracking
 
 ### MacOS
+Full desktop application with the same features as iOS, optimized for larger screens and keyboard input.
 
-### WatchOS - Simplified version of calculator
+### watchOS
+Simplified version of the calculator designed for quick field use:
+- Essential species selection
+- Streamlined measurement input
+- Quick weight estimates
+- Optimized for glanceable use on the water
 
 ### Subscription Model
+ScaleScience uses a freemium model with premium features available through subscription. Details available in the app.
 
 ### Future Updates
 [Version Map](future_versions.md)
 
 ---
 
-## The WebApp  
+## Additional Applications
+
+### Web Application
+A Streamlit-based web version of the fish weight calculator is available, providing browser-based access to the species database and calculation tools. Perfect for desktop use without installation.
+
+### Desktop Application
+A CustomTkinter desktop application offering offline functionality with the full species database and advanced features for researchers and fisheries professionals.
 
 ---
 
-## Working on analysis of publicly available fisheries data (ICCAT)  
+## ICCAT Fisheries Data Analysis
+
+ScaleScience is built on rigorous analysis of publicly available fisheries data from the International Commission for the Conservation of Atlantic Tunas (ICCAT). This research includes:
+
+### Data Coverage
+- **74 years of historical catch data** (1950-2023)
+- **126 species** globally (15 major ICCAT species analyzed in depth)
+- **20-year catch predictions** (2024-2043)
+- **Population biomass estimates** (2023)
+- **Regional distribution analysis** across Atlantic Ocean and Mediterranean Sea
+
+### Key Findings
+- **Total Atlantic Biomass** (15 major species): 2.99 million tonnes
+- **Overall Exploitation Rate**: 24.9% (sustainable)
+- **Success Story**: Atlantic Bluefin Tuna showing strong recovery through quota management
+- **Conservation Priorities**: Shark species requiring continued protection
+
+### Methodologies
+- Prophet time-series forecasting
+- Multi-factor predictive models (15 enhancement factors)
+- Exploitation rate inverse calculations
+- FishBase 2025 allometric parameters
+- IGFA world record integration
+
+### Applications in ScaleScience
+The ICCAT analysis informs our species parameters, weight-length relationships, and provides scientific validation for our calculation methods. This ensures ScaleScience delivers accurate, research-backed estimates for anglers and fisheries professionals.
 
 ---
 
