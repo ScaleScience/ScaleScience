@@ -73,7 +73,7 @@ All species data includes:
 
 ## Application (iOS, MacOS, watchOS)
 
-### iOS
+### iOS (17+)
 Native Swift application providing full-featured fish weight calculations with:
 - 126 species database with scientific parameters
 - Length-only and length+girth calculation methods
@@ -81,10 +81,10 @@ Native Swift application providing full-featured fish weight calculations with:
 - Species search and filtering
 - Historical calculation tracking
 
-### MacOS
+### MacOS (14+)
 Full desktop application with the same features as iOS, optimized for larger screens and keyboard input.
 
-### watchOS
+### watchOS (10+)
 Simplified version of the calculator designed for quick field use:
 - Essential species selection
 - Streamlined measurement input
